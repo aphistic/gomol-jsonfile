@@ -1,0 +1,9 @@
+
+  {"type": "header", "data": { "headers": { "header1": 1234, "header2": "headerVal2" }, "time": "1970-01-01T00:00:05Z" } }   
+
+    {"type":"log","data":{ "time":"1970-01-01T00:00:10Z", "msg": "Message 1", "level": "debug", "attrs":null}}    
+
+{"type":"header","data":{"time":"1970-01-01T00:00:10Z","headers":{"header1":"val1"}}}
+
+{"data":{"time": "1970-01-01T00:00:11Z", "attrs":{"attr1":4321,"attr2":"val2"}, "level":"info", "msg":"Message 2"}, "type": "log"}
+
